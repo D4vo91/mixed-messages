@@ -3,15 +3,22 @@ const randomNum = num => {
     return Math.floor(Math.random()*num);
 };
 
-const messages = {
+const messagesComponents = {
     positiveQuotes: ['What is now proved was once only imagined', 'Turn your obstacles into opportunities and your problems into possibilities', 
                 'There is no good and evil, there is only power and those too weak to seek it', 'No act of kindness, no matter how small, is ever wasted', 
                 'Stay strong, stay positive, and never give up','Never lose hope. Storms make people stronger and never last forever', 'Anything is possible. Anything can be', 
                 'Nothing can disturb your peace of mind unless you allow it to', 'I\'m not going to limit myself just because people won\'t accept the fact that I can do something else.', 
                 'With our thoughts we make the world'],
                 //Roy T Bennett, J.K.Rowling, William Blake, Shel Silverstein, Dolly Parton, Buddha
-    powerTasks: ['power task 1', 'power task 2', 'power task 3', 'power task 4', 'power task 5', 
-                'power task 6', 'power task 7', 'power task 8', 'power task 9', 'power task 10'],
-    affirmations: ['affirmation 1', 'affirmation 2', 'affirmation 3', 'affirmation 4', 'affirmation 5', 
-                    'affirmation 6', 'affirmation 7', 'affirmation 8', 'affirmation 9', 'affirmation 10'],
+    powerTasks: ['Say out loud 10 things you are grateful for', 'Write 3 goals to complete today', 'Talk to a random person (Stranger)', 
+                'Read 10 pages of a personal development book today', 'Make 5 more calls today', 'Call a friend', 'Call a family member to check on them', 
+                'Use the stairs instead of the elevator', 'Listen to a business/personal development podcast', 'Do 1 minute high-plank and 1 minute low-plank'],
+    affirmations: ['Money flows to me easily, frecuently and abundantly', 'Abundance is my birth right', 'I believe in my skills and abilities', 
+                 'I am worthy of possitive cashflow', 'I am calm and cofindent because I am well prepared', 'The universe always provides for me',
+                  'I am helthy welthy and happy', 'Everyday I am a better version of myself, specially today', 'People easily like, trust and wants to do business with me',
+                   'My success is inevitable'],
+};
+
+const buildMessage = messages => {
+
 };

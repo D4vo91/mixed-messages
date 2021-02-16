@@ -28,5 +28,12 @@ const randomizeMessage = messages => {
     //returns an array with 3 elements which are randomly selected from the message components
 };
 
+function printMessage(arrayRandomMessage){
+    const fullMessage = `\nInspirational quote of the Day: ${arrayRandomMessage[0]}.
+Suggested Power Task: ${arrayRandomMessage[1]}.
+Read this affirmation out loud for you: ${arrayRandomMessage[2]}. \n\n`;
+    console.log(fullMessage);
+};
+
 let newMessage = randomizeMessage(messagesComponents);
-console.log(newMessage);
+printMessage(newMessage);

@@ -19,6 +19,14 @@ const messagesComponents = {
                    'My success is inevitable'],
 };
 
-const buildMessage = messages => {
-
+const randomizeMessage = messages => {
+    let randomMessage = [];
+    for (let component in messages){
+        randomMessage.push(messages[component][randomNum(messages[component].length)]);
+    }
+    return randomMessage;
+    //returns an array with 3 elements which are randomly selected from the message components
 };
+
+let newMessage = randomizeMessage(messagesComponents);
+console.log(newMessage);
